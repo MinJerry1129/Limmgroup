@@ -3,25 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A54A8E56677FD5916813C26 /* Pods_woocomence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246811D83340CDC20979797D /* Pods_woocomence.framework */; };
+		84201E6323228AD90078BC8D /* EBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84201E6223228AD90078BC8D /* EBookVC.swift */; };
+		844A6325231F8CA500CC4E55 /* OneProCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6324231F8CA500CC4E55 /* OneProCell.swift */; };
+		844A6327231FA8EA00CC4E55 /* bookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6326231FA8EA00CC4E55 /* bookCell.swift */; };
+		844A6329231FA94F00CC4E55 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6328231FA94F00CC4E55 /* BookVC.swift */; };
+		844A632B231FAA6300CC4E55 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A632A231FAA6300CC4E55 /* Book.swift */; };
 		845581BF230D833D007FA285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581BE230D833D007FA285 /* AppDelegate.swift */; };
-		845581C1230D833D007FA285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581C0230D833D007FA285 /* ViewController.swift */; };
+		845581C1230D833D007FA285 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581C0230D833D007FA285 /* MainVC.swift */; };
 		845581C4230D833D007FA285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845581C2230D833D007FA285 /* Main.storyboard */; };
 		845581C6230D833E007FA285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845581C5230D833E007FA285 /* Assets.xcassets */; };
 		845581C9230D833E007FA285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845581C7230D833E007FA285 /* LaunchScreen.storyboard */; };
+		845581D1230DDEAA007FA285 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581D0230DDEAA007FA285 /* ProductVC.swift */; };
+		845581D3230DDEC8007FA285 /* ProductOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581D2230DDEC8007FA285 /* ProductOneVC.swift */; };
+		845581D5230DDEDC007FA285 /* VipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581D4230DDEDC007FA285 /* VipVC.swift */; };
+		845581D7230DDEF1007FA285 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581D6230DDEF1007FA285 /* ContactVC.swift */; };
+		845581D9230DEBA7007FA285 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581D8230DEBA7007FA285 /* ProductCell.swift */; };
+		845581DD230EDAA7007FA285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845581DC230EDAA7007FA285 /* GoogleService-Info.plist */; };
+		845581E2230F1624007FA285 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581E1230F1624007FA285 /* LocalStorage.swift */; };
+		845581E4230F1A0F007FA285 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845581E3230F1A0F007FA285 /* Product.swift */; };
+		8456B73E231052DF003B74CF /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456B73D231052DF003B74CF /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F673DDB59C13E6766460DD /* Pods-woocomence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocomence.debug.xcconfig"; path = "Target Support Files/Pods-woocomence/Pods-woocomence.debug.xcconfig"; sourceTree = "<group>"; };
+		246811D83340CDC20979797D /* Pods_woocomence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woocomence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84201E6223228AD90078BC8D /* EBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookVC.swift; sourceTree = "<group>"; };
+		844A6324231F8CA500CC4E55 /* OneProCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneProCell.swift; sourceTree = "<group>"; };
+		844A6326231FA8EA00CC4E55 /* bookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookCell.swift; sourceTree = "<group>"; };
+		844A6328231FA94F00CC4E55 /* BookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
+		844A632A231FAA6300CC4E55 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		845581BB230D833D007FA285 /* woocomence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woocomence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845581BE230D833D007FA285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845581C0230D833D007FA285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845581C0230D833D007FA285 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		845581C3230D833D007FA285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845581C5230D833E007FA285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845581C8230D833E007FA285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845581CA230D833E007FA285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845581D0230DDEAA007FA285 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		845581D2230DDEC8007FA285 /* ProductOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOneVC.swift; sourceTree = "<group>"; };
+		845581D4230DDEDC007FA285 /* VipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVC.swift; sourceTree = "<group>"; };
+		845581D6230DDEF1007FA285 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		845581D8230DEBA7007FA285 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		845581DC230EDAA7007FA285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		845581E1230F1624007FA285 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		845581E3230F1A0F007FA285 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8456B73D231052DF003B74CF /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		BF7EBD1F05A3A91C57B2A7E4 /* Pods-woocomence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocomence.release.xcconfig"; path = "Target Support Files/Pods-woocomence/Pods-woocomence.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A54A8E56677FD5916813C26 /* Pods_woocomence.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ED74D4C704EF800905B5570 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08F673DDB59C13E6766460DD /* Pods-woocomence.debug.xcconfig */,
+				BF7EBD1F05A3A91C57B2A7E4 /* Pods-woocomence.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		845581B2230D833D007FA285 = {
 			isa = PBXGroup;
 			children = (
 				845581BD230D833D007FA285 /* woocomence */,
 				845581BC230D833D007FA285 /* Products */,
+				5ED74D4C704EF800905B5570 /* Pods */,
+				9E170235A915C6A4542A1533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,60 @@
 		845581BD230D833D007FA285 /* woocomence */ = {
 			isa = PBXGroup;
 			children = (
+				845581E0230F15D1007FA285 /* Cell */,
+				845581DF230F15C0007FA285 /* Model */,
+				845581DE230F159A007FA285 /* View */,
+				845581DC230EDAA7007FA285 /* GoogleService-Info.plist */,
 				845581BE230D833D007FA285 /* AppDelegate.swift */,
-				845581C0230D833D007FA285 /* ViewController.swift */,
 				845581C2230D833D007FA285 /* Main.storyboard */,
 				845581C5230D833E007FA285 /* Assets.xcassets */,
 				845581C7230D833E007FA285 /* LaunchScreen.storyboard */,
 				845581CA230D833E007FA285 /* Info.plist */,
 			);
 			path = woocomence;
+			sourceTree = "<group>";
+		};
+		845581DE230F159A007FA285 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845581C0230D833D007FA285 /* MainVC.swift */,
+				845581D0230DDEAA007FA285 /* ProductVC.swift */,
+				845581D2230DDEC8007FA285 /* ProductOneVC.swift */,
+				845581D4230DDEDC007FA285 /* VipVC.swift */,
+				845581D6230DDEF1007FA285 /* ContactVC.swift */,
+				844A6328231FA94F00CC4E55 /* BookVC.swift */,
+				84201E6223228AD90078BC8D /* EBookVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		845581DF230F15C0007FA285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845581E1230F1624007FA285 /* LocalStorage.swift */,
+				845581E3230F1A0F007FA285 /* Product.swift */,
+				8456B73D231052DF003B74CF /* Global.swift */,
+				844A632A231FAA6300CC4E55 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845581E0230F15D1007FA285 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				845581D8230DEBA7007FA285 /* ProductCell.swift */,
+				844A6324231F8CA500CC4E55 /* OneProCell.swift */,
+				844A6326231FA8EA00CC4E55 /* bookCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9E170235A915C6A4542A1533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246811D83340CDC20979797D /* Pods_woocomence.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845581CD230D833E007FA285 /* Build configuration list for PBXNativeTarget "woocomence" */;
 			buildPhases = (
+				271695C0B05E58DB7BEB6F26 /* [CP] Check Pods Manifest.lock */,
 				845581B7230D833D007FA285 /* Sources */,
 				845581B8230D833D007FA285 /* Frameworks */,
 				845581B9230D833D007FA285 /* Resources */,
+				BC07423A260F5684C3237257 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845581C9230D833E007FA285 /* LaunchScreen.storyboard in Resources */,
+				845581DD230EDAA7007FA285 /* GoogleService-Info.plist in Resources */,
 				845581C6230D833E007FA285 /* Assets.xcassets in Resources */,
 				845581C4230D833D007FA285 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +223,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		271695C0B05E58DB7BEB6F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-woocomence-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC07423A260F5684C3237257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-woocomence/Pods-woocomence-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-woocomence/Pods-woocomence-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-woocomence/Pods-woocomence-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845581B7230D833D007FA285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845581C1230D833D007FA285 /* ViewController.swift in Sources */,
+				845581D1230DDEAA007FA285 /* ProductVC.swift in Sources */,
+				845581D5230DDEDC007FA285 /* VipVC.swift in Sources */,
+				844A632B231FAA6300CC4E55 /* Book.swift in Sources */,
+				845581E4230F1A0F007FA285 /* Product.swift in Sources */,
+				845581D3230DDEC8007FA285 /* ProductOneVC.swift in Sources */,
+				845581D7230DDEF1007FA285 /* ContactVC.swift in Sources */,
+				84201E6323228AD90078BC8D /* EBookVC.swift in Sources */,
+				844A6325231F8CA500CC4E55 /* OneProCell.swift in Sources */,
+				845581C1230D833D007FA285 /* MainVC.swift in Sources */,
+				845581E2230F1624007FA285 /* LocalStorage.swift in Sources */,
+				844A6329231FA94F00CC4E55 /* BookVC.swift in Sources */,
+				844A6327231FA8EA00CC4E55 /* bookCell.swift in Sources */,
+				845581D9230DEBA7007FA285 /* ProductCell.swift in Sources */,
+				8456B73E231052DF003B74CF /* Global.swift in Sources */,
 				845581BF230D833D007FA285 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +368,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -274,41 +423,48 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		845581CE230D833E007FA285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F673DDB59C13E6766460DD /* Pods-woocomence.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBV985Z2SS;
 				INFOPLIST_FILE = woocomence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.food.offer.woocomence;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aution.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		845581CF230D833E007FA285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7EBD1F05A3A91C57B2A7E4 /* Pods-woocomence.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBV985Z2SS;
 				INFOPLIST_FILE = woocomence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.food.offer.woocomence;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aution.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
